@@ -15,7 +15,6 @@ for line in g:
         
 check = set()
 def rare_words(nfile):
-    excl = set([u'ть', u'чь', u'ти', u'ся', u'ие', u'ок', u'ек'])
     global check
     global my_d
     r = re.compile(u'([а-яА-Я]+){([а-я]+)}', flags=re.U)
