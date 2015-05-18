@@ -16,7 +16,7 @@ for line in g:
 check = set()
 def rare_words(nfile):
     new = codecs.open(u'filter0423.csv', 'a', 'utf-8')
-    excl = set([u'чь', u'ие', u'ец', u'ье', u'ик', u'ок', u'ек', u'ий', u'ый', u'ой', u'ач'])
+    excl = set([u'чь', u'ие', u'ец', u'ье', u'ок', u'ек', u'ий', u'ый', u'ой', u'ач'])
     excl1 = set([u'очка', u'ство', u'ость', u'ечка', u'ушка', u'тель'])
     global check
     global my_d
